@@ -1,0 +1,19 @@
+.Card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas: "header header" "btn btn" "date date";
+}
+
+p {
+    font-size: 20px;
+}
+
+.card-hover {
+    transition: 0.3s;
+}
+
+.card-hover:hover {
+    color: #fc6d26;
+    transition: 0.3s;
+}

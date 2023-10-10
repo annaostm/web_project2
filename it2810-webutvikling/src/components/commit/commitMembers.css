@@ -1,0 +1,45 @@
+.user-buttons {
+    text-align: center;
+    display: inline;
+}
+
+.user-filter {
+    margin: auto;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    font-weight: bold;
+    border: none;
+    background-color: #554488;
+    height: 70px;
+    width: 200px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.user-filter>p {
+    margin: auto;
+    font-size: 16px;
+}
+
+.user-filter:hover {
+    background-color: #fc6d26;
+}
+
+@media only screen and (max-width: 500px) {
+    .user-filter {
+        font-size: 12px;
+        width: 130px !important;
+        height: 50px !important;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .user-filter {
+        font-size: 14px;
+        width: 150px !important;
+        height: 60px !important;
+    }
+    .user-filter>p {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,145 @@
+.login-form {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    color: #554488;
+    border-radius: 10px;
+    max-width: 60vw;
+    padding: 10px;
+    margin-block: 10px;
+    margin-inline: auto;
+}
+
+.date-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-evenly;
+    margin: auto;
+    background-color: white;
+    max-width: 90vw;
+    border-radius: 10px;
+    height: 90px;
+    margin-block: 10px;
+    margin-inline: auto;
+}
+
+.date-grid>.button {
+    margin: auto;
+    padding: 10px;
+}
+
+.desktop-date-picker-to {
+    width: 90%;
+    margin: auto;
+}
+
+.desktop-date-picker-from {
+    width: 90%;
+    margin: auto;
+}
+
+#radio-dark {
+    font-weight: bold;
+    color: white;
+}
+
+#radio-light {
+    font-weight: bold;
+    color: black;
+}
+
+.hidden-form {
+    display: none;
+}
+
+.text {
+    font-weight: bold;
+}
+
+.form {
+    display: block;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 60vw;
+    margin-inline: auto;
+    height: 100%;
+    margin-bottom: 50px;
+}
+
+.title-of-repo {
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.title-of-repo:hover {
+    color: #fc6d26;
+    transition: 0.3s;
+}
+
+.grid-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 900px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 900px) {
+    .login-form {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        max-width: 61vw;
+    }
+    .title-of-repo {
+        font-size: 14px;
+    }
+    .headline {
+        font-size: 16px;
+    }
+    .grid-buttons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 400px;
+    }
+    .form {
+        max-width: 61vw;
+        font-size: 14px;
+    }
+    .date-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto;
+        max-width: 70vw;
+        height: 60vh;
+    }
+    .text {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .login-form {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        min-width: 37vw;
+    }
+    .search-button {
+        text-align: center;
+    }
+    .title-of-repo {
+        font-size: 8px;
+    }
+    .grid-buttons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .form {
+        min-width: 37vw;
+        font-size: 12px;
+    }
+    .text {
+        font-size: 10px;
+    }
+}

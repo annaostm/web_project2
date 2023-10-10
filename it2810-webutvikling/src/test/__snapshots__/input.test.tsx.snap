@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="content"
+>
+  <div
+    className="login-form"
+  >
+    <div
+      className="MuiFormControl-root MuiTextField-root outlined-basic css-1xly198-MuiFormControl-root-MuiTextField-root"
+    >
+      <label
+        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root"
+        data-shrink={false}
+        htmlFor=":r0:"
+        id=":r0:-label"
+      >
+        Project ID
+      </label>
+      <div
+        className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          autoFocus={false}
+          className="MuiInputBase-input MuiOutlinedInput-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+          disabled={false}
+          id=":r0:"
+          name="ID"
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          style={
+            Object {
+              "background": "white",
+              "color": "#554488",
+            }
+          }
+          type="text"
+          value=""
+        />
+        <fieldset
+          aria-hidden={true}
+          className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            className="css-yjsfm1"
+          >
+            <span>
+              Project ID
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+    <div
+      className="MuiFormControl-root MuiTextField-root outlined-basic css-1xly198-MuiFormControl-root-MuiTextField-root"
+    >
+      <label
+        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root"
+        data-shrink={false}
+        htmlFor=":r1:"
+        id=":r1:-label"
+      >
+        Access Token
+      </label>
+      <div
+        className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          autoFocus={false}
+          className="MuiInputBase-input MuiOutlinedInput-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+          disabled={false}
+          id=":r1:"
+          name="PAT"
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          style={
+            Object {
+              "background": "white",
+              "color": "#554488",
+            }
+          }
+          type="text"
+          value=""
+        />
+        <fieldset
+          aria-hidden={true}
+          className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            className="css-yjsfm1"
+          >
+            <span>
+              Access Token
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+    <button
+      className="button"
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline",
+        }
+      }
+    >
+      Search
+    </button>
+  </div>
+  <br />
+  <br />
+  <div
+    className="title-of-repo"
+  >
+    <div />
+  </div>
+  <br />
+  <br />
+  <br />
+  <div
+    className="grid-buttons"
+  >
+    <button
+      className="button"
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      Branches
+    </button>
+    <button
+      className="button"
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      Issues
+    </button>
+    <button
+      className="button"
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      Commits
+    </button>
+    <button
+      className="button"
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      Merge Requests
+    </button>
+  </div>
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <div />
+  <br />
+  <br />
+  <div
+    className="hidden-form"
+  >
+    <div />
+  </div>
+</div>
+`;

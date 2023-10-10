@@ -1,0 +1,11 @@
+.darkmode {
+    background-color: #282c34;
+    color: white;
+    float: right;
+}
+
+.lightmode {
+    background-color: whitesmoke;
+    color: black;
+    float: right;
+}
